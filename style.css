@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.headre
+{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+/* .circle
+{
+    background: gray;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+} */
+
+.input1::placeholder
+{
+    color: white;
+}
+
+.input1{
+    width: 25vw;
+    height: 5vh;
+    border-radius: 5px;
+    background: #1f1f1f;
+    color: white;
+    margin-left: 10px;
+    padding-left: 10px;
+
+    font-family: "Poppins", serif;
+    font-size: 1rem;
+    border: none;
+}
+
+input:focus {
+    border: 1.5px solid white;
+    border-color: white; /* Change to desired color */
+    outline: none; /* Removes default blue outline */
+  }
+
+  .headre ul li
+  {
+    color: white;
+    display: inline-block;
+    font-family: "Poppins", serif;
+    text-decoration: none;
+    padding-left: 10px;
+    /* margin-left: 20px; */
+
+  }
+
+  .headre ul
+  {
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: small;
+  }
+
+
+  .conatiner
+  {
+    background: black;
+    display: grid;
+    width:100vw;
+    height: 100vh;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
+   
+
+  }
+
+  .item
+  {
+    color: white;
+    border: 2px solid white;
+
+  }
+
+  .box1
+  {
+    grid-row-start: 1;
+    grid-row-end: 5;
+    width: 25vw;
+  }
