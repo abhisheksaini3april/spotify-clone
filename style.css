@@ -210,18 +210,24 @@ input:focus {
   padding-left: 0.7rem;
 }
 
-.card:hover
+.card
 {
   margin-top: 30px;
   margin-left: 0.7rem;
-  background-color: #302e2e;
+  
   border-radius: 2px;
   padding-bottom: 40px;
   
 }
 
+.card:hover{
+
+  background-color: #302e2e;
+}
+
 .cardscontainer
 {
   display: flex;
+  flex-wrap: wrap;
   
 }
