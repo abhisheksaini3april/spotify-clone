@@ -165,3 +165,63 @@ input:focus {
   text-transform: capitalize;
   font-weight: 600;
 }
+
+.list ul li{
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Poppins", serif;
+  font-size: x-small;
+  padding-left:15px ;
+  line-height: 3;
+}
+.list{
+  padding-top: 50px;
+}
+
+.tt
+{
+  font-family: "Poppins", serif;
+  font-size: larger;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  padding-left: 1rem;
+  padding-top: 0.7rem;
+
+}
+
+.songi
+{
+  width:150px;
+  height: 150px;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.songsh
+{
+  font-family: "Poppins", serif;
+  text-transform: capitalize;
+  padding-left: 0.7rem;
+}
+.singers
+{
+  font-family: "Poppins", serif;
+  font-size: small;
+  padding-left: 0.7rem;
+}
+
+.card:hover
+{
+  margin-top: 30px;
+  margin-left: 0.7rem;
+  background-color: #302e2e;
+  border-radius: 2px;
+  padding-bottom: 40px;
+  
+}
+
+.cardscontainer
+{
+  display: flex;
+  
+}
